@@ -3,15 +3,20 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://cristo202020.github.io/PracticoIntegrador/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.11.2",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
+    "react-redux": "^9.2.0",
     "react-router-dom": "^7.14.2"
   },
   "devDependencies": {
