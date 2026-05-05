@@ -1,16 +1,35 @@
-# React + Vite
+Practico Integrador: Pagina web que permite visualizar una lista de usuarios obtenidos desde una API externa, aplicar filtros y gestionar favoritos.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tecnologías utilizadas: 
 
-Currently, two official plugins are available:
+* React - Vite
+* Redux Toolkit
+* React Router
+* Fetch
+* GH-Pages
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Estructura del proyecto
 
-## React Compiler
+src/
+ ├── components/
+ │    ├── NavBar.jsx
+ │    └── UserCard.jsx
+ ├── pages/
+ │    ├── List.jsx
+ │    └── Favorites.jsx
+ ├── services/
+ │    └── api.js
+ ├── store/
+ │    ├── store.js
+ │    └── favoritesSlice.js
+ └── main.jsx
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Instalación y ejecución
 
-## Expanding the ESLint configuration
+Clonar el repositorio: git clone https://github.com/Cristo202020/PracticoIntegrador.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Instalar dependencias: npm install
+
+Ejecutar: npm run dev

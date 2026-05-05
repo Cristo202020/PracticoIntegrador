@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import api from "../services/api";
+import api from "../services/Api";
 import { useDispatch, useSelector } from "react-redux";
-import { addFavorite, removeFavorite } from "../store/favoritesSlice";
+import { addFavorite, removeFavorite } from "../store/FavoritesSlice";
 import UserCard from "../components/userCard";
 
 function List() {

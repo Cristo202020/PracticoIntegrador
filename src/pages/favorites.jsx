@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { removeFavorite } from "../store/favoritesSlice";
+import { removeFavorite } from "../store/FavoritesSlice";
 import UserCard from "../components/userCard";
 
 function Favorites() {
